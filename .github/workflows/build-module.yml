@@ -11,18 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-          build_env:
-          - tag: "22.03.1"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7620
-            vermagic: "61c5cc4c45c2f25ae66a95db95c6bedc"
-          - tag: "22.03.1"
-            pkgarch: mipsel_24kc
-            target: ramips
-            subtarget: mt7620
-            vermagic: "61c5cc4c45c2f25ae66a95db95c6bedc"
-          - tag: "22.03.1"
+        build_env:
+            tag: "22.03.1"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7620
